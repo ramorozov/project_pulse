@@ -1,0 +1,5 @@
+src/fonts/
+src/icons/
+src/img/
+.vscode/
+node_modules
