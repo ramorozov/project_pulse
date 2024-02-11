@@ -17,17 +17,17 @@
         margin-top: 38px;
         font-size: 18px;
         font-weight: 700;
-        color: #0d0d0d;
+        color: $advantages_text_color;
     }
     &__descr {
         margin-top: 26px;
         font-size: 14px;
         font-weight: 300;
-        color: #0d0d0d;
+        color: $advantages_text_color;
         text-align: center;
         span {
             text-decoration: underline;
-            color: #ff0000;
+            color: $main_color;
         }        
     }
 }
