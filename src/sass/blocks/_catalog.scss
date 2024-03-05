@@ -38,9 +38,12 @@
     }
     &__content{
         margin-top: 59px;
-        display: flex;
+        display: none;
         justify-content: center;
         flex-wrap: wrap;
+        &_active {
+            display: flex;
+        }
     }
     &-item{
         width: 300px;
