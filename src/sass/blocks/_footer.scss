@@ -1,0 +1,38 @@
+.footer{
+    height: 630px;
+    &__contact{
+        position: absolute;
+        top: -637px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 460px;
+        height: 270px;
+        background-color: $main_color;
+        padding: 50px 69px 60px 69px;
+    }
+    &__address{
+        font-size: 19px;
+        font-weight: 500;
+        color: #ffffff;
+        text-align: center;
+    }
+    &__phone {
+        display: block;
+        margin-top: 36px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        &:hover{
+            color: #ffffff;
+        }
+    }
+    &__social{
+        margin-top: 38px;
+        display: flex;
+        justify-content: center;
+        &-item{
+            margin: 0 10px 0 10px;
+        }
+    }
+}

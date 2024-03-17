@@ -216,5 +216,14 @@
                 }
             }
         }
-    }
+        .footer{
+            &__contact{
+                width: 111%;
+                padding: 30px;
+            }
+            &__address{
+                font-size: 16px;
+            }
+        }
+    }   
 }
